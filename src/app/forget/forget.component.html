@@ -4,18 +4,15 @@
       <div class="row login_title col-md-10 col-md-offset-1">
         <p>Olvidé mi contraseña</p>
       </div>
-      <div class="col-md-12">
-        <p class="help_note col-md-12">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui totam aperiam nihil, repudiandae modi doloremque! Debitis
-          distinctio illum, consequatur vel quos magni quibusdam sequi perferendis. Laudantium quas hic aliquam, suscipit.</p>
-      </div>
       <div class="row login_form col-md-10 col-md-offset-1">
+        <app-alert></app-alert>
         <form>
           <!-- NOTAS -->
           <div class="form-group">
             <label for="exampleInputEmail1">Correo electrónico</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" PlaceHolder="Introduzca su correo electrónico">
+            <input type="email" class="form-control" name="email" PlaceHolder="Introduzca su correo electrónico" [(ngModel)]="email">
           </div>
-          <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+          <button type="submit" class="btn btn-primary btn-block" (click)="recordarPassword()">Enviar</button>
           <div class="form-group col-md-12 ">
             <p class="help-block col-md-5"><a [routerLink]="['/login']" routerLinkActive='active'>Iniciar sesion</a></p>
           </div>
