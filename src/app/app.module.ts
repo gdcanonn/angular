@@ -10,10 +10,12 @@ import { MenuLoginComponent } from './menu-login/menu-login.component';
 import { LoginComponent } from './login/login.component';
 import { ForgetComponent } from './forget/forget.component';
 
-import { LoginService, MenuService } from './_services/index';
+import { LoginService, MenuService, ForgetService, AlertService } from './_services/index';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AuthGuard } from './_guard/auth.guard';
+import { AlertComponent } from './alert/alert.component';
+import { RecoveryComponent } from './recovery/recovery.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { AuthGuard } from './_guard/auth.guard';
     DashboardComponent,
     MenuLoginComponent,
     LoginComponent,
-    ForgetComponent
+    ForgetComponent,
+    AlertComponent,
+    RecoveryComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +34,7 @@ import { AuthGuard } from './_guard/auth.guard';
     RouterModule,
     AppRoutingModule
   ],
-  providers: [AuthGuard, LoginService, MenuService],
+  providers: [AuthGuard, LoginService, MenuService, ForgetService, AlertService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
