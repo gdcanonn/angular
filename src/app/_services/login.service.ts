@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Headers, Http } from '@angular/http';
 import { User } from '../_models/user';
+import * as properties from '../properties';
 
 import 'rxjs/add/operator/toPromise';
 
@@ -9,7 +10,7 @@ import 'rxjs/add/operator/map';
 @Injectable()
 export class LoginService {
 
-  private BaseUrl = 'api/heroes';  // URL to web api
+  private BaseUrl = properties.baseUrl;  // URL to web api
   private headers = new Headers({ 'Content-Type': 'application/json' });
 
   constructor(private http: Http) { }
