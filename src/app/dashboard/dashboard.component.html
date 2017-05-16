@@ -1,0 +1,17 @@
+<main class="container">
+  <div class="row dash_container">
+
+    <div *ngFor="let menu of menus" class="dash_item col-md-2 col-sm-4 col-xs-6">
+      <div class="dash_item_img col-md-12">
+        <figure>
+          <img src="{{getIcon(menu.name)}}"/>
+        </figure>
+      </div>
+      <div class="dash_item_text">
+        <p>{{menu.name}}</p>
+      </div>
+    </div>
+    
+  </div>
+</main>
+

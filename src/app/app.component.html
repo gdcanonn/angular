@@ -1,0 +1,51 @@
+<!-- HEADER -->
+<header>
+  <div class="container-fluid header">
+    <div class="row">
+      <figure class=" logo_header col-md-9 col-xs-5">
+        <img src="assets/img/logo.png" alt="">
+      </figure>
+      <app-menu-login *ngIf="islogedin()" ></app-menu-login>
+    </div>
+  </div>
+</header>
+
+<router-outlet></router-outlet>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container-fluid">
+    <div class="row footer">
+      <figure class="col-md-2 col-sm-2">
+        <img src="assets/img/logo_footer.png" alt="">
+      </figure>
+      <div class="col-md-2 col-sm-2">
+        <p>· Mapas</p>
+        <p>· Calendario</p>
+        <p>· Análisis de Datos</p>
+        <p>· Administración General</p>
+      </div>
+      <div class="col-md-2 col-sm-2">
+        <p>· Administración Comercial</p>
+        <p>· Administración de Servicios</p>
+        <p>· Reportes</p>
+        <p>· CRM</p>
+      </div>
+      <div class="col-md-2 col-sm-2">
+        <p>· ERP</p>
+        <p>· Terminos y condiciones</p>
+        <p>· Preguntas Frecuentes</p>
+        <p>· Soporte</p>
+      </div>
+      <div class="col-md-2 col-sm-2">
+        <p>· Contacto</p>
+        <p>· Cerrar sesión</p>
+        
+      </div>
+    </div>
+    <div class=" row zurich_creditos">
+      <p>Corferias todos los derechos reservados © 2017  Powered by Zürich </p>
+    </div>			
+  </div>
+  
+</footer>

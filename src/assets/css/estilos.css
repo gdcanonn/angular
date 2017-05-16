@@ -1,0 +1,428 @@
+.bg_body{
+	background-image: url('../img/bg_body.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/************************
+		HEADER
+*************************/
+
+.header{
+	color: #ffffff;
+	margin-bottom: 20px;
+}
+
+.bg_header {
+    background-image: url('../img/header_img.png');
+    background-repeat: no-repeat;
+    background-position: left left;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.bg_header img{
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.logo_header{
+	margin-top: 5px;
+}
+
+.icons_header{
+	margin-top: 5px;
+	text-align: right;
+}
+
+.dash_icon{
+    border-right: 1px solid #fff;
+    padding-right: 10px;
+}
+
+.user_icon{
+	text-align: center;
+}
+
+.user_icon img{
+	margin-left: -20px;
+	margin-top: 0px;
+	text-align: center;
+}
+
+.user_id p{
+	padding-top: 10px;
+	text-align: left;
+}
+
+.user_id{
+	text-align: right;
+	font-size: 0.8em;
+	line-height: 1.5em;
+}
+
+/************************
+		LOGIN
+*************************/
+
+.login_box{
+	background-color: rgba(0, 0, 0, 0.6);
+	border-radius: 20px;
+	padding: 20px 20px 0px 20px;
+	margin-top:70px;
+	margin-bottom: 70px;
+	color: #fff;
+}
+
+.login_title{
+	font-size: 1.5em;
+	text-align: center;
+	border-bottom: 1px #fff solid;
+	margin-bottom: 30px;
+}
+
+.login_logo{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.login_form{
+	margin-bottom: 20px;
+}
+
+.login_form p{
+	font-size: 0.8em;
+	margin-top: 20px;
+	margin-left: -30px;
+}
+
+/************************
+		DASHBOARD
+*************************/
+
+.dash_container{
+	margin: 80px 40px 80px 40px;
+	padding: 40px 0px 20px 0px;
+}
+.dash_item{
+	text-align: center;
+	margin: 20px 0px 20px 0px; 
+}
+
+.dash_item_img{
+	margin-bottom: 10px;
+}
+
+.dash_item_text{
+	color: #fff;
+	font-size: 0.9em;
+}
+/************************
+		MAIN
+*************************/
+
+.section_title{
+	color: #0076bf;
+	margin-top: 40px;
+}
+
+.sub_navbar {
+	background-color: #fff;
+	color: #ccc;
+	border-top: solid #ddd 1px;
+	border-bottom: solid #ddd 1px;
+	border-left: none;
+	border-right: none;
+	border-radius: 0px;
+	font-size: 0.9em;
+}
+
+.cart_button{
+	background-color: #e21937;
+	height: 52px;
+	font-size: 1em;
+	color: #fff;
+	padding-top: 15px; 
+}
+
+.cart_button i{
+	font-size: 1.5em;
+}
+
+.filtro{
+	background-color: #00517a;
+	color: #fff;
+	font-size: 0.8em;
+	padding: 3px;
+}
+
+.filtro select{
+	font-size: 1em;
+	height: 20px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+.item_filtro{
+	color: #29abe2;
+	font-size: 2em;
+	text-align: right;
+}
+
+.label{
+	color: #0076bf;
+	border-bottom: solid 1px #0076bf;
+	text-align: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 0px;
+}
+
+.items_row{
+	border-bottom: solid 1px #ddd;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.title_item{
+	color: #e21937;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.descrip_item{
+	font-size: 0.8em;
+	color: #333;
+	text-align: justify;
+}
+
+.price_item{
+	font-size: 1.2em;
+	color: #e21937;
+	margin-top: 10px;
+}
+
+.info_item{
+	margin-left: -15px;
+	margin-top: 20px;
+}
+.cant_item{
+	color: #0076bf;
+	font-size: 0.7em;
+	border-right: 1px solid #aaa;
+}
+
+.cart_cant{
+	font-size: 1em;
+	color: #444;
+	margin-top: -3px;
+}
+
+.add_item_button{
+	background-color: #e21937;
+	color: #fff;
+	font-size: 0.8em;
+	border-radius: 10px;
+	text-align: center;
+	padding: 5px;
+	margin-top: -5px;
+}
+
+.pager{
+	color: #0076bf;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	letter-spacing: 0.4em;
+}
+
+/************************
+		FORMULARIOS
+*************************/
+
+.container_form{
+	background-color: #fff;
+	box-shadow: 5px 5px 5px #ccc;
+	border-radius: 20px;
+	padding: 10px;
+}
+.label_section{
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #0055b7;
+	border-bottom: solid 1px #0055b7;
+	padding: 10px;
+	margin-bottom: 20px;
+
+}
+
+.label_right_icon{
+	text-align: right;
+	margin-top: -25px;
+
+}
+
+.label_subsection{
+	font-size: 0.9em;
+	color: #0055b7;
+	border-bottom: solid 1px #0055b7;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.help_note{
+	color: #fff;
+	font-size: 0.8em;
+	padding: 20px 40px 20px 40px;
+	text-align: justify;
+}
+
+.note_error{
+	background-color: #fcc;
+	border-radius: 10px;
+	border: 1px #f44 solid;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-size: 0.8em;
+	color: #444;
+	padding: 10px;
+}
+
+.note_normal{
+	background-color: #ccc;
+	border-radius: 10px;
+	border: 1px #444 solid;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-size: 0.8em;
+	color: #444;
+	padding: 10px;
+}
+
+.note_success{
+	background-color: #cfc;
+	border-radius: 10px;
+	border: 1px #4f4 solid;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-size: 0.8em;
+	color: #444;
+	padding: 10px;
+}
+
+.note_warning{
+	background-color: #F5F6CE;
+	border-radius: 10px;
+	border: 1px #F5DA81 solid;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-size: 0.8em;
+	color: #444;
+	padding: 10px;
+}
+
+.control-label{
+	font-size: 0.8em;
+}
+
+.form-control{
+	height: 20px;
+	font-size: 0.9em;
+	background-color: #eee;
+	margin-top: 8px;
+}
+
+/************************
+		TABLAS
+*************************/
+
+table {
+	font-size: 0.8em;
+	margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th{
+	background-color: #0055b7;
+	color: #fff;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+/************************
+		BOTONES
+*************************/
+
+.btn {
+	margin: 5px 5px 5px 0px;
+	font-size: 0.8em;
+}
+
+.btn_center{
+	text-align: center;
+}
+  
+.btn-lg {
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #0055b7;
+  border-color: #0055b7;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #004589;
+  border-color: #004589;
+}
+
+
+
+/************************
+		FOOTER
+*************************/
+.footer {
+	background-color: #444;
+	padding: 15px;
+	text-align: left;
+	font-size: 0.8em;
+	margin-top: 40px;
+}
+
+.footer p{
+	color: #aaa;
+}
+
+.zurich_creditos{
+	background-color: #333;
+	color: #666;
+	font-size: 0.7em;
+	text-align: center;
+}
+
+.zurich_creditos p{
+	margin-top:10px ;
+}
